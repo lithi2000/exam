@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Wild Rio{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        {% block javascripts_head %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <style type="text/css">
+        
+        
+                
+        
+        </style>
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        
+            {% block footer %}
+                <div class="container">
+                    <div class="row">
+                    <div class=col-md-4><p><img src="images/facebook.png"></p></div>
+                    <div class=col-md-4><p><img src="images/twitter.png"></p></div>
+                    <div class=col-md-4><P><img src="images/googleplus.png"></P></div>
+               
+            {% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

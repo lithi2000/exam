@@ -1,0 +1,8 @@
+front_homepage:
+    path:     /
+    defaults: { _controller: FrontBundle:Static:homepage }
+
+front_vote:
+    path:     /vote
+    defaults: { _controller: FrontBundle:Static:vote }
+

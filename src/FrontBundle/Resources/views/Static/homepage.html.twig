@@ -1,0 +1,52 @@
+{% extends 'FrontBundle::layout.html.twig' %}
+
+{% block content %}
+
+<div class="container1"
+<img src="{{ asset('web/images/rio.jpg') }}">
+ <div class="row">
+ 	<div class=col-md-2><p></p></div>
+ 		<div class=col-md-2><p></p></div>
+ 			<div class=col-md-2><p></p></div>
+ 			<div class=col-md-2><p></p></div>
+ 			<div class=col-md-2><p></p></div>
+ 			<div class=col-md-2>
+ 			<p><button type="button" class="ajout-fichier btn btn-default navbar-btn" data-toggle="modal" data-target="#login_modal"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Se connecter</button></p>
+  			<div class="modal fade" id="login_modal" role="dialog" aria-labelledby="myModalLabel">
+ 			<div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Connexion
+                </div>
+                <div class="modal-body">
+                    Body
+                </div>
+                <div class="modal-footer">
+                    Footer
+                </div>
+            </div>
+        </div>
+    </div>
+     </div>
+ </div>
+
+</div>
+</div>
+
+ <div class="container2">
+ 	<h1>Prochaines épreuves</h1>
+          <div class="row">
+                <div class=col-md-4><p><img src="images/natation"></p>
+                <p>Commentaires</p>
+                </div>
+                <div class=col-md-4><p><img src="images/article_escrime"></p>
+                <p>Commentaires</p>
+
+                </div>
+                <div class=col-md-4><P><img src="images/golf"></P>
+                <p>Commentaires</p>	
+                </div>
+
+		
+	
+{% endblock content %}
